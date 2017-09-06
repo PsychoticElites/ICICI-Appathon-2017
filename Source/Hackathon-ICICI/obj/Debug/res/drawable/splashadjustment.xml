@@ -1,0 +1,1 @@
+<bitmap android:src="@drawable/splashscreen" android:scaleType="center" android:gravity="center_vertical|center_horizontal" xmlns:android="http://schemas.android.com/apk/res/android" />

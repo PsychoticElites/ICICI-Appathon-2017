@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:scrollIndicators="right"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="52.3dp"
+            android:id="@+id/linearLayout1"
+            android:background="#000000">
+            <ImageView
+                android:src="@drawable/information2"
+                android:layout_width="48.7dp"
+                android:layout_height="41.3dp"
+                android:id="@+id/imageView1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp" />
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="46.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/peLogo"
+                android:layout_marginLeft="250dp"
+                android:clickable="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="562.3dp"
+            android:id="@+id/linearLayout2"
+            android:background="@drawable/bg1">
+            <ImageView
+                android:src="@drawable/icicibanner"
+                android:layout_width="166.7dp"
+                android:layout_height="84.3dp"
+                android:id="@+id/iciciLogo"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:clickable="true" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout5">
+                <TextView
+                    android:text="*"
+                    android:id="@+id/textView2"
+                    android:textColor="#000000"
+                    android:textStyle="bold|italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp" />
+                <TextView
+                    android:text="A Special Banking Service from ICICI for Visually-Challenged People to Enjoy ICICI Mobile Services same as everyone."
+                    android:id="@+id/textView1"
+                    android:textStyle="italic|bold"
+                    android:textColor="#000000"
+                    android:layout_width="334.3dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout3">
+                <TextView
+                    android:text="*"
+                    android:layout_width="13.3dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView2"
+                    android:textColor="#000000"
+                    android:textStyle="bold|italic"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp" />
+                <TextView
+                    android:text="Use Information button above to access New Information."
+                    android:id="@+id/textView1"
+                    android:textStyle="italic|bold"
+                    android:textColor="#000000"
+                    android:textAlignment="textStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+            <TextView
+                android:text="*  Click on ICICI Logo to Visit ICICI Website."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:textStyle="italic|bold"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout4">
+                <TextView
+                    android:text="*"
+                    android:id="@+id/textView2"
+                    android:textColor="#000000"
+                    android:textStyle="bold|italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp" />
+                <TextView
+                    android:text="Click on Bank Icon below to find nearest ATM/Bank around your Location."
+                    android:id="@+id/textView1"
+                    android:textStyle="italic|bold"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+            <TextView
+                android:text="*  Use Exit Button below to exit Application at any time."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:textStyle="italic|bold"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000" />
+            <ImageView
+                android:src="@drawable/loginicon2"
+                android:layout_width="139.7dp"
+                android:layout_height="76.0dp"
+                android:id="@+id/mainLogin"
+                android:layout_marginTop="41dp"
+                android:layout_marginLeft="110dp"
+                android:clickable="true" />
+            <ImageView
+                android:src="@drawable/signin2"
+                android:layout_width="139.7dp"
+                android:layout_height="76dp"
+                android:id="@+id/mainSignup"
+                android:layout_marginLeft="113dp"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="3.0dp"
+                android:layout_marginBottom="0dp"
+                android:background="#000000"
+                android:clickable="false"
+                android:text="Button"
+                android:layout_marginTop="50dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout6">
+                <ImageView
+                    android:src="@drawable/bankatm"
+                    android:layout_width="68.0dp"
+                    android:layout_height="55.0dp"
+                    android:id="@+id/iciciATM"
+                    android:layout_marginTop="5dp"
+                    android:clickable="true" />
+                <ImageView
+                    android:src="@drawable/powerbutton"
+                    android:layout_width="71.7dp"
+                    android:layout_height="68.3dp"
+                    android:id="@+id/imageView5"
+                    android:layout_marginLeft="225dp"
+                    android:clickable="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

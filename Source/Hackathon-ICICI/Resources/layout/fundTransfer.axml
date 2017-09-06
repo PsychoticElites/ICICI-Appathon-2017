@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:id="@+id/linearLayout2">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dp"
+        android:id="@+id/linearLayout1">
+        <ImageButton
+            android:src="@drawable/backbutton"
+            android:layout_width="43.7dp"
+            android:layout_height="37.0dp"
+            android:id="@+id/imageButton1"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:text="FUND TRANSFER"
+            android:layout_width="161.0dp"
+            android:layout_height="21.0dp"
+            android:id="@+id/textView1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:src="@drawable/fundtransfer"
+            android:layout_width="65.7dp"
+            android:layout_height="48.0dp"
+            android:id="@+id/imageView1"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="35dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="3.0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#414347"
+        android:clickable="false"
+        android:text="Button" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="474.7dp"
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="0dp">
+        <TextView
+            android:text="Account Number"
+            android:layout_width="229.3dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fundLabel1"
+            android:layout_marginTop="70dp"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:textAllCaps="true" />
+        <EditText
+            android:layout_width="226.7dp"
+            android:layout_height="32.3dp"
+            android:id="@+id/fundAccNumber"
+            android:maxLength="16"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#000000"
+            android:editable="false"
+            android:background="@drawable/roundedEditText"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" />
+        <TextView
+            android:text="Destination Account Number"
+            android:layout_width="287.7dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_width="226.7dp"
+            android:layout_height="32.3dp"
+            android:id="@+id/fundDestAccount"
+            android:layout_marginLeft="25dp"
+            android:maxLength="16"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:background="@drawable/roundedEditText"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:inputType="number" />
+        <TextView
+            android:text="Amount"
+            android:layout_width="116.3dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fundlabel3"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:layout_marginLeft="25dp"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_width="226.7dp"
+            android:layout_height="32.3dp"
+            android:id="@+id/fundAmount"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:background="@drawable/roundedEditText"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:inputType="numberSigned" />
+        <Button
+            android:text="SUBMIT"
+            android:layout_width="138.0dp"
+            android:layout_height="57.7dp"
+            android:id="@+id/fundTransferSubmit"
+            android:background="@drawable/roundedButton"
+            android:editable="false"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="45dp"
+            android:textSize="20dp"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="3.0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#000000"
+        android:clickable="false"
+        android:text="Button"
+        android:layout_marginTop="25dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout5">
+            <TextView
+                android:text="* Account Number is of 16 Digits"
+                android:layout_width="211.3dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:text="* Amount will be between Rupees 500 - 10000"
+                android:layout_width="288.7dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+        <ImageButton
+            android:src="@drawable/powerbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton2"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+</LinearLayout>
